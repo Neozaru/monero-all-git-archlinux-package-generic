@@ -12,7 +12,7 @@ license=('custom:Cryptonote')
 provides=('monero-wallet-gui' 'monero')
 conflicts=('monero-wallet-gui')
 
-depends=('openssl' 'boost-libs>=1.45' 'unbound' 'libunwind' 'readline'
+depends=('openssl' 'boost-libs>=1.45' 'miniupnpc' 'unbound' 'libunwind' 'readline'
 'qt5-base' 'qt5-declarative' 'qt5-graphicaleffects'
 'qt5-location' 'qt5-quickcontrols' 'qt5-tools' 'qt5-webchannel'
 'qt5-webengine' 'qt5-x11extras' 'qt5-xmlpatterns')
